@@ -6,73 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Profile</title>
     <style>
-        header{
+        header {
             color: white;
-            background-color:#73ab95;
+            background-color: #73ab95;
             padding-left: 100px;
         }
-        .x a{ 
+
+        .x ul li {
             text-transform: uppercase;
             text-decoration: none;
-            margin-right: 50px;
+            margin: 50px;
             color: #092922;
+            display: inline-block;
         }
-        .y{
+
+        a {
+            text-decoration: none;
+        }
+
+        .y {
             margin-right: 50px;
         }
-        .z{
+
+        .z {
             margin-right: 15px;
-            color:#2c645b;
+            color: #2c645b;
         }
-        .a{
+
+        .a {
             margin-right: 15px;
         }
-        footer{
+
+        footer {
             background-color: #8cb46c;
-            color:#2c645b;
+            color: #2c645b;
             padding-left: 100px;
+        }
+        footer ul li{
+            display: inline-block;
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 
-<body style="background-color: #7cd4ac;">
+<body>
     <header>
         <i class="fa fa-user-circle-o" aria-hidden="true"></i>
         <span class="y"><b>Ronak Mojidra</b></span>
-            
+
         <i class="fa fa-mobile" aria-hidden="true"></i>
         <span class="y"><b>+91 898 336 4379</b></span>
-           
-        <i class="fa fa-envelope"aria-hidden="true"></i>
-            
+
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+
         <span class="y"><b>mojidraronak@gmail.com</b></span>
-        <a href="Resume.pdf" download target="_blank"><button type="submit"><i class="fa fa-download" aria-hidden="true"></i><span class="y">download</span></button></a>
+        <a href="Resume.pdf" download target="_blank"><button type="submit"><i class="fa fa-download"
+                    aria-hidden="true"></i><span class="y">download</span></button></a>
 
     </header>
     <br />
     <br />
     <nav class="x">
-        <a  href="home.html" target="myFrame">HOME</a>
-        <a  href="techStack.html" target="myFrame">TECH STACK</a>
-        <a  href="projectDetails.html" target="myFrame">PROJECT</a>
-        <a  href="empApplicationForm.html" target="myFrame">EDUCATION</a>
-        <a  href="aboutMe.html" target="myFrame">ABOUT ME</a>
+        <ul>
+            <li> <a href="home.html" target="myFrame">HOME</a></li>
+            <li> <a href="techStack.html" target="myFrame">TECH STACK</a></li>
+            <li> <a href="projectDetails.html" target="myFrame">PROJECT</a></li>
+            <li> <a href="empApplicationForm.html" target="myFrame">EDUCATION</a></li>
+            <li><a href="aboutMe.html" target="myFrame">ABOUT ME</a></li>
+        </ul>
     </nav>
     <br />
     <iframe width="900px" height="450px" src="home.html" name="myFrame" frameborder="0"></iframe><br><br>
     <span></span>
     <footer>
-        <span class="a"><b>Follow Me</b></span>
-        <a class="z" href="https://github.com/ronakmojidra/my-profile.git"><i class="fa fa-lg fa-github"
-                aria-hidden="true"></i></a>
-        <a class="z" href="https://www.linkedin.com/feed/"><i class="fa fa-lg fa-linkedin"
-                aria-hidden="true"></i></a>
-        <a class="z" href="https://www.facebook.com/"><i class="fa fa-lg fa-facebook-official" aria-hidden="true"></i></a>
-        <a  class="z" href="https://www.instagram.com/"><i class="fa fa-lg fa-instagram" aria-hidden="true"></i></a>
-    
-    <p> Copyright &copy; 2023 Zoom Video Communications, Inc. All rights reserved. </p>
-</footer>
+        <ul>
+            <li> <span class="a"><b>Follow Me</b></span></li>
+            <li><a class="z" href="https://github.com/ronakmojidra/my-profile.git"><i class="fa fa-lg fa-github"
+                        aria-hidden="true"></i></a></li>
+            <li> <a class="z" href="https://www.facebook.com/"><i class="fa fa-lg fa-facebook-official"
+                        aria-hidden="true"></i></a>
+            <li>
+                <a class="z" href="https://www.instagram.com/"><i class="fa fa-lg fa-instagram"
+                        aria-hidden="true"></i></a></li>
+            <li><a class="z" href="https://www.linkedin.com/feed/"><i class="fa fa-lg fa-linkedin"
+                        aria-hidden="true"></i></a></li>
+            </li>
+        </ul>
+        <p> Copyright &copy; 2023 Zoom Video Communications, Inc. All rights reserved. </p>
+    </footer>
 </body>
 
 </html>
